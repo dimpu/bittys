@@ -49,7 +49,7 @@ Medusa is an open-source headless commerce engine that enables developers to cre
     curl localhost:9000/store/products | python -m json.tool
     ```
 
-After these four steps and only a couple of minutes, you now have a complete commerce engine running locally. You may now explore [the documentation](https://docs.medusa-commerce.com/api) to learn how to interact with the Medusa API. You may also add [plugins](https://github.com/medusajs/medusa/tree/master/packages) to your Medusa store by specifying them in your `medusa-config.js` file.
+After these four steps and only a couple of minutes, you now have a complete commerce engine running locally. You may now explore [the documentation](https://docs.medusa-commerce.com/api) to learn how to interact with the Medusa API. You may also add [plugins](https://github.com/medusajs/medusa/tree/master/packages) to your Betty's by specifying them in your `medusa-config.js` file.
 
 ## 🗄 Setting up Admin
 
@@ -93,7 +93,7 @@ To provide a quick way to get you started with a storefront install one of our t
   npx create-next-app -e https://github.com/medusajs/nextjs-starter-medusa my-medusa-storefront
   ```
 
-With your starter and your Medusa store running, you can open http://localhost:8000 (for Gatsby) or http://localhost:3000 (for Nextjs) in your browser and view the products in your store, build a cart, add shipping details and pay and complete an order.
+With your starter and your Betty's running, you can open http://localhost:8000 (for Gatsby) or http://localhost:3000 (for Nextjs) in your browser and view the products in your store, build a cart, add shipping details and pay and complete an order.
 
 ## ☁️ Linking development to Medusa Cloud
 With your project in local development, you can link your Medusa instance to Medusa Cloud - this will allow you to manage your store, view orders, and test out the amazing functionalities that you are building. Linking your project to Medusa Cloud requires that you have a Medusa Cloud account.

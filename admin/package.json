@@ -1,7 +1,7 @@
 {
   "name": "medusa-admin",
   "private": true,
-  "description": "A proprietary Admin system to manage Medusa Stores",
+  "description": "A proprietary Admin system to manage Betty's",
   "version": "0.1.0",
   "author": "@medusajs",
   "resolutions": {
