@@ -1,14 +1,23 @@
 {
   "store": {
-    "currencies": ["eur", "usd"]
+    "currencies": ["eur", "usd", "inr"]
   },
   "users": [
     {
-      "email": "admin@medusa-test.com",
-      "password": "supersecret"
+      "email": "admin@nextcommerce.com",
+      "password": "superSecret$123"
     }
   ],
   "regions": [
+    {
+      "id": "region-in",
+      "name": "India",
+      "currency_code": "inr",
+      "tax_rate": 0,
+      "payment_providers": ["manual"],
+      "fulfillment_providers": ["manual"],
+      "countries": ["in"]
+    },
     {
       "id": "test-region-eu",
       "name": "EU",
