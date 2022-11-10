@@ -58,7 +58,7 @@ const SettingsIndex = () => {
       />
       <SettingsCard
         heading={"The Team"}
-        description={"Manage users of your Betty's"}
+        description={"Manage users of your Betty&apos;s"}
         icon={<UsersIcon />}
         to={`/a/settings/team`}
       />

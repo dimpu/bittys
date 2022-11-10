@@ -72,7 +72,7 @@ const Nav = () => {
 
           <div className="flex items-center h-full">
             <Link href="/">
-              <a className="text-xl-semi ">Bitty's</a>
+              <a className="text-xl-semi ">Betty&apos;s</a>
             </Link>
           </div>
 

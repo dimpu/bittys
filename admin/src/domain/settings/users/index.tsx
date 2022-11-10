@@ -53,7 +53,7 @@ const Users: React.FC = () => {
         />
         <BodyCard
           title="The Team"
-          subtitle="Manage users of your Betty's"
+          subtitle="Manage users of your Betty&apos;s"
           actionables={actionables}
         >
           <div className="flex grow  flex-col pt-2">

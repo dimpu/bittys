@@ -56,11 +56,11 @@ This starter has minimal prerequisites and most of these will usually already be
 
 Your local Medusa server is now running on port **9000**.
 
-### Seeding your Betty's
+### Seeding your Betty&apos;s
 
 ---
 
-To seed your Betty's run the following command:
+To seed your Betty&apos;s run the following command:
 
 ```
 medusa seed -f ./data/seed.json
@@ -109,11 +109,11 @@ This command seeds your database with some sample data to get you started, inclu
 
 Your local Medusa server is now running on port **9000**.
 
-### Seeding your Betty's with Docker
+### Seeding your Betty&apos;s with Docker
 
 ---
 
-To add seed data to your Betty's running with Docker, run this command in a seperate terminal:
+To add seed data to your Betty&apos;s running with Docker, run this command in a seperate terminal:
 
 ```
 docker exec medusa-server medusa seed -f ./data/seed.json

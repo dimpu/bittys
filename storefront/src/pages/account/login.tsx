@@ -6,7 +6,7 @@ import { NextPageWithLayout } from "types/global"
 const Login: NextPageWithLayout = () => {
   return (
     <>
-      <Head title="Sign in" description="Sign in to your Betty's account." />
+      <Head title="Sign in" description="Sign in to your Betty&apos;s account." />
       <LoginTemplate />
     </>
   )

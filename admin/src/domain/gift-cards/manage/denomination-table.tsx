@@ -105,7 +105,7 @@ const DenominationTable: React.FC<DenominationTableProps> = ({
       {selectedDenom && (
         <DeletePrompt
           handleClose={() => setSelectedDenom(null)}
-          text="Are you sure you want to delete this denomination from your Betty's?"
+          text="Are you sure you want to delete this denomination from your Betty&apos;s?"
           heading="Delete denomination"
           onDelete={() => handleDeleteDenomination()}
           successText="Successfully deleted denomination"
