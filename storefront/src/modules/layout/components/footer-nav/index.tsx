@@ -14,54 +14,20 @@ const FooterNav = () => {
             <a className="text-xl-semi uppercase">Betty's</a>
           </Link>
         </div>
-        <div className="text-small-regular grid grid-cols-2 gap-x-16">
+        <div className="flex flex-col text-small-regular w-1/6">
+
           <div className="flex flex-col gap-y-2">
-            <span className="text-base-semi">Collections</span>
-            <ul
-              className={clsx("grid grid-cols-1 gap-y-2", {
-                "grid-cols-2": (collections?.length || 0) > 4,
-              })}
-            >
-              {collections?.map((c) => (
-                <li key={c.id}>
-                  <Link href={`/collections/${c.id}`}>
-                    <a>{c.title}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="flex flex-col gap-y-2">
-            <span className="text-base-semi">Medusa</span>
-            <ul className="grid grid-cols-1 gap-y-2">
-              <li>
-                <a
-                  href="https://github.com/medusajs"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://docs.medusajs.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/medusajs/nextjs-starter-medusa"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Source code
-                </a>
-              </li>
-            </ul>
+            <span className="text-base-semi">Visit our store</span>
+
+            <div className="flex text-black">
+              Flat No.502, SR Sagar Soudha, Opposite MK ONE, Near MK GOLD COAST, YENDADA, Vishakapatanam, Andhra Pradesh, 530045
+            </div>
+            <div className="flex text-black">
+              shopbittys@gmail.com
+            </div>
+            <div className="flex text-black">
+              8074422740
+            </div>
           </div>
         </div>
       </div>
